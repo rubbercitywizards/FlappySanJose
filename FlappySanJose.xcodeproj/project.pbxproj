@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7C8AE11909B22000B7BB61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8AE01909B22000B7BB61 /* Foundation.framework */; };
+		AB7C8AE31909B22000B7BB61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8AE21909B22000B7BB61 /* CoreGraphics.framework */; };
+		AB7C8AE51909B22000B7BB61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8AE41909B22000B7BB61 /* UIKit.framework */; };
+		AB7C8AE71909B22000B7BB61 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8AE61909B22000B7BB61 /* SpriteKit.framework */; };
+		AB7C8AED1909B22000B7BB61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8AEB1909B22000B7BB61 /* InfoPlist.strings */; };
+		AB7C8AEF1909B22000B7BB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C8AEE1909B22000B7BB61 /* main.m */; };
+		AB7C8AF31909B22000B7BB61 /* RCWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C8AF21909B22000B7BB61 /* RCWAppDelegate.m */; };
+		AB7C8AF61909B22000B7BB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8AF41909B22000B7BB61 /* Main.storyboard */; };
+		AB7C8AF91909B22000B7BB61 /* RCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C8AF81909B22000B7BB61 /* RCWViewController.m */; };
+		AB7C8AFC1909B22000B7BB61 /* RCWMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C8AFB1909B22000B7BB61 /* RCWMyScene.m */; };
+		AB7C8AFE1909B22000B7BB61 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8AFD1909B22000B7BB61 /* Spaceship.png */; };
+		AB7C8B001909B22000B7BB61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8AFF1909B22000B7BB61 /* Images.xcassets */; };
+		AB7C8B071909B22000B7BB61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8B061909B22000B7BB61 /* XCTest.framework */; };
+		AB7C8B081909B22000B7BB61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8AE01909B22000B7BB61 /* Foundation.framework */; };
+		AB7C8B091909B22000B7BB61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8AE41909B22000B7BB61 /* UIKit.framework */; };
+		AB7C8B111909B22000B7BB61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8B0F1909B22000B7BB61 /* InfoPlist.strings */; };
+		AB7C8B131909B22000B7BB61 /* FlappySanJoseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C8B121909B22000B7BB61 /* FlappySanJoseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7C8B0A1909B22000B7BB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7C8AD51909B22000B7BB61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7C8ADC1909B22000B7BB61;
+			remoteInfo = FlappySanJose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB7C8ADD1909B22000B7BB61 /* FlappySanJose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappySanJose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7C8AE01909B22000B7BB61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB7C8AE21909B22000B7BB61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB7C8AE41909B22000B7BB61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB7C8AE61909B22000B7BB61 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		AB7C8AEA1909B22000B7BB61 /* FlappySanJose-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappySanJose-Info.plist"; sourceTree = "<group>"; };
+		AB7C8AEC1909B22000B7BB61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB7C8AEE1909B22000B7BB61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB7C8AF01909B22000B7BB61 /* FlappySanJose-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlappySanJose-Prefix.pch"; sourceTree = "<group>"; };
+		AB7C8AF11909B22000B7BB61 /* RCWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWAppDelegate.h; sourceTree = "<group>"; };
+		AB7C8AF21909B22000B7BB61 /* RCWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWAppDelegate.m; sourceTree = "<group>"; };
+		AB7C8AF51909B22000B7BB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB7C8AF71909B22000B7BB61 /* RCWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWViewController.h; sourceTree = "<group>"; };
+		AB7C8AF81909B22000B7BB61 /* RCWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWViewController.m; sourceTree = "<group>"; };
+		AB7C8AFA1909B22000B7BB61 /* RCWMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWMyScene.h; sourceTree = "<group>"; };
+		AB7C8AFB1909B22000B7BB61 /* RCWMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWMyScene.m; sourceTree = "<group>"; };
+		AB7C8AFD1909B22000B7BB61 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		AB7C8AFF1909B22000B7BB61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB7C8B051909B22000B7BB61 /* FlappySanJoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappySanJoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7C8B061909B22000B7BB61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB7C8B0E1909B22000B7BB61 /* FlappySanJoseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappySanJoseTests-Info.plist"; sourceTree = "<group>"; };
+		AB7C8B101909B22000B7BB61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB7C8B121909B22000B7BB61 /* FlappySanJoseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappySanJoseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7C8ADA1909B22000B7BB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C8AE31909B22000B7BB61 /* CoreGraphics.framework in Frameworks */,
+				AB7C8AE51909B22000B7BB61 /* UIKit.framework in Frameworks */,
+				AB7C8AE71909B22000B7BB61 /* SpriteKit.framework in Frameworks */,
+				AB7C8AE11909B22000B7BB61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C8B021909B22000B7BB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C8B071909B22000B7BB61 /* XCTest.framework in Frameworks */,
+				AB7C8B091909B22000B7BB61 /* UIKit.framework in Frameworks */,
+				AB7C8B081909B22000B7BB61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7C8AD41909B22000B7BB61 = {
+			isa = PBXGroup;
+			children = (
+				AB7C8AE81909B22000B7BB61 /* FlappySanJose */,
+				AB7C8B0C1909B22000B7BB61 /* FlappySanJoseTests */,
+				AB7C8ADF1909B22000B7BB61 /* Frameworks */,
+				AB7C8ADE1909B22000B7BB61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7C8ADE1909B22000B7BB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C8ADD1909B22000B7BB61 /* FlappySanJose.app */,
+				AB7C8B051909B22000B7BB61 /* FlappySanJoseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7C8ADF1909B22000B7BB61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C8AE01909B22000B7BB61 /* Foundation.framework */,
+				AB7C8AE21909B22000B7BB61 /* CoreGraphics.framework */,
+				AB7C8AE41909B22000B7BB61 /* UIKit.framework */,
+				AB7C8AE61909B22000B7BB61 /* SpriteKit.framework */,
+				AB7C8B061909B22000B7BB61 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB7C8AE81909B22000B7BB61 /* FlappySanJose */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C8AF11909B22000B7BB61 /* RCWAppDelegate.h */,
+				AB7C8AF21909B22000B7BB61 /* RCWAppDelegate.m */,
+				AB7C8AF41909B22000B7BB61 /* Main.storyboard */,
+				AB7C8AF71909B22000B7BB61 /* RCWViewController.h */,
+				AB7C8AF81909B22000B7BB61 /* RCWViewController.m */,
+				AB7C8AFA1909B22000B7BB61 /* RCWMyScene.h */,
+				AB7C8AFB1909B22000B7BB61 /* RCWMyScene.m */,
+				AB7C8AFD1909B22000B7BB61 /* Spaceship.png */,
+				AB7C8AFF1909B22000B7BB61 /* Images.xcassets */,
+				AB7C8AE91909B22000B7BB61 /* Supporting Files */,
+			);
+			path = FlappySanJose;
+			sourceTree = "<group>";
+		};
+		AB7C8AE91909B22000B7BB61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C8AEA1909B22000B7BB61 /* FlappySanJose-Info.plist */,
+				AB7C8AEB1909B22000B7BB61 /* InfoPlist.strings */,
+				AB7C8AEE1909B22000B7BB61 /* main.m */,
+				AB7C8AF01909B22000B7BB61 /* FlappySanJose-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB7C8B0C1909B22000B7BB61 /* FlappySanJoseTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C8B121909B22000B7BB61 /* FlappySanJoseTests.m */,
+				AB7C8B0D1909B22000B7BB61 /* Supporting Files */,
+			);
+			path = FlappySanJoseTests;
+			sourceTree = "<group>";
+		};
+		AB7C8B0D1909B22000B7BB61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C8B0E1909B22000B7BB61 /* FlappySanJoseTests-Info.plist */,
+				AB7C8B0F1909B22000B7BB61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7C8ADC1909B22000B7BB61 /* FlappySanJose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7C8B161909B22000B7BB61 /* Build configuration list for PBXNativeTarget "FlappySanJose" */;
+			buildPhases = (
+				AB7C8AD91909B22000B7BB61 /* Sources */,
+				AB7C8ADA1909B22000B7BB61 /* Frameworks */,
+				AB7C8ADB1909B22000B7BB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappySanJose;
+			productName = FlappySanJose;
+			productReference = AB7C8ADD1909B22000B7BB61 /* FlappySanJose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7C8B041909B22000B7BB61 /* FlappySanJoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7C8B191909B22000B7BB61 /* Build configuration list for PBXNativeTarget "FlappySanJoseTests" */;
+			buildPhases = (
+				AB7C8B011909B22000B7BB61 /* Sources */,
+				AB7C8B021909B22000B7BB61 /* Frameworks */,
+				AB7C8B031909B22000B7BB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7C8B0B1909B22000B7BB61 /* PBXTargetDependency */,
+			);
+			name = FlappySanJoseTests;
+			productName = FlappySanJoseTests;
+			productReference = AB7C8B051909B22000B7BB61 /* FlappySanJoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7C8AD51909B22000B7BB61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RCW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rubber City Wizards";
+				TargetAttributes = {
+					AB7C8B041909B22000B7BB61 = {
+						TestTargetID = AB7C8ADC1909B22000B7BB61;
+					};
+				};
+			};
+			buildConfigurationList = AB7C8AD81909B22000B7BB61 /* Build configuration list for PBXProject "FlappySanJose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7C8AD41909B22000B7BB61;
+			productRefGroup = AB7C8ADE1909B22000B7BB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7C8ADC1909B22000B7BB61 /* FlappySanJose */,
+				AB7C8B041909B22000B7BB61 /* FlappySanJoseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7C8ADB1909B22000B7BB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C8AED1909B22000B7BB61 /* InfoPlist.strings in Resources */,
+				AB7C8B001909B22000B7BB61 /* Images.xcassets in Resources */,
+				AB7C8AFE1909B22000B7BB61 /* Spaceship.png in Resources */,
+				AB7C8AF61909B22000B7BB61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C8B031909B22000B7BB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C8B111909B22000B7BB61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7C8AD91909B22000B7BB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C8AEF1909B22000B7BB61 /* main.m in Sources */,
+				AB7C8AF91909B22000B7BB61 /* RCWViewController.m in Sources */,
+				AB7C8AF31909B22000B7BB61 /* RCWAppDelegate.m in Sources */,
+				AB7C8AFC1909B22000B7BB61 /* RCWMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7C8B011909B22000B7BB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C8B131909B22000B7BB61 /* FlappySanJoseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7C8B0B1909B22000B7BB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7C8ADC1909B22000B7BB61 /* FlappySanJose */;
+			targetProxy = AB7C8B0A1909B22000B7BB61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB7C8AEB1909B22000B7BB61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7C8AEC1909B22000B7BB61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB7C8AF41909B22000B7BB61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7C8AF51909B22000B7BB61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB7C8B0F1909B22000B7BB61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7C8B101909B22000B7BB61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7C8B141909B22000B7BB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB7C8B151909B22000B7BB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7C8B171909B22000B7BB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappySanJose/FlappySanJose-Prefix.pch";
+				INFOPLIST_FILE = "FlappySanJose/FlappySanJose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB7C8B181909B22000B7BB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappySanJose/FlappySanJose-Prefix.pch";
+				INFOPLIST_FILE = "FlappySanJose/FlappySanJose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB7C8B1A1909B22000B7BB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappySanJose.app/FlappySanJose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappySanJose/FlappySanJose-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlappySanJoseTests/FlappySanJoseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB7C8B1B1909B22000B7BB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappySanJose.app/FlappySanJose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlappySanJose/FlappySanJose-Prefix.pch";
+				INFOPLIST_FILE = "FlappySanJoseTests/FlappySanJoseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7C8AD81909B22000B7BB61 /* Build configuration list for PBXProject "FlappySanJose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7C8B141909B22000B7BB61 /* Debug */,
+				AB7C8B151909B22000B7BB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7C8B161909B22000B7BB61 /* Build configuration list for PBXNativeTarget "FlappySanJose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7C8B171909B22000B7BB61 /* Debug */,
+				AB7C8B181909B22000B7BB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB7C8B191909B22000B7BB61 /* Build configuration list for PBXNativeTarget "FlappySanJoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7C8B1A1909B22000B7BB61 /* Debug */,
+				AB7C8B1B1909B22000B7BB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7C8AD51909B22000B7BB61 /* Project object */;
+}
