@@ -17,13 +17,13 @@
 		AB7C8AF61909B22000B7BB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8AF41909B22000B7BB61 /* Main.storyboard */; };
 		AB7C8AF91909B22000B7BB61 /* RCWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C8AF81909B22000B7BB61 /* RCWViewController.m */; };
 		AB7C8AFC1909B22000B7BB61 /* RCWMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C8AFB1909B22000B7BB61 /* RCWMyScene.m */; };
-		AB7C8AFE1909B22000B7BB61 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8AFD1909B22000B7BB61 /* Spaceship.png */; };
 		AB7C8B001909B22000B7BB61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8AFF1909B22000B7BB61 /* Images.xcassets */; };
 		AB7C8B071909B22000B7BB61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8B061909B22000B7BB61 /* XCTest.framework */; };
 		AB7C8B081909B22000B7BB61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8AE01909B22000B7BB61 /* Foundation.framework */; };
 		AB7C8B091909B22000B7BB61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C8AE41909B22000B7BB61 /* UIKit.framework */; };
 		AB7C8B111909B22000B7BB61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8B0F1909B22000B7BB61 /* InfoPlist.strings */; };
 		AB7C8B131909B22000B7BB61 /* FlappySanJoseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C8B121909B22000B7BB61 /* FlappySanJoseTests.m */; };
+		AB7C8B1D1909B2D600B7BB61 /* flappy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AB7C8B1C1909B2D600B7BB61 /* flappy.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +53,13 @@
 		AB7C8AF81909B22000B7BB61 /* RCWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWViewController.m; sourceTree = "<group>"; };
 		AB7C8AFA1909B22000B7BB61 /* RCWMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWMyScene.h; sourceTree = "<group>"; };
 		AB7C8AFB1909B22000B7BB61 /* RCWMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWMyScene.m; sourceTree = "<group>"; };
-		AB7C8AFD1909B22000B7BB61 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		AB7C8AFF1909B22000B7BB61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB7C8B051909B22000B7BB61 /* FlappySanJoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappySanJoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7C8B061909B22000B7BB61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AB7C8B0E1909B22000B7BB61 /* FlappySanJoseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappySanJoseTests-Info.plist"; sourceTree = "<group>"; };
 		AB7C8B101909B22000B7BB61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB7C8B121909B22000B7BB61 /* FlappySanJoseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappySanJoseTests.m; sourceTree = "<group>"; };
+		AB7C8B1C1909B2D600B7BB61 /* flappy.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = flappy.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 				AB7C8AF81909B22000B7BB61 /* RCWViewController.m */,
 				AB7C8AFA1909B22000B7BB61 /* RCWMyScene.h */,
 				AB7C8AFB1909B22000B7BB61 /* RCWMyScene.m */,
-				AB7C8AFD1909B22000B7BB61 /* Spaceship.png */,
+				AB7C8B1C1909B2D600B7BB61 /* flappy.atlas */,
 				AB7C8AFF1909B22000B7BB61 /* Images.xcassets */,
 				AB7C8AE91909B22000B7BB61 /* Supporting Files */,
 			);
@@ -243,7 +243,7 @@
 			files = (
 				AB7C8AED1909B22000B7BB61 /* InfoPlist.strings in Resources */,
 				AB7C8B001909B22000B7BB61 /* Images.xcassets in Resources */,
-				AB7C8AFE1909B22000B7BB61 /* Spaceship.png in Resources */,
+				AB7C8B1D1909B2D600B7BB61 /* flappy.atlas in Resources */,
 				AB7C8AF61909B22000B7BB61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +473,7 @@
 				AB7C8B181909B22000B7BB61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB7C8B191909B22000B7BB61 /* Build configuration list for PBXNativeTarget "FlappySanJoseTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +482,7 @@
 				AB7C8B1B1909B22000B7BB61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

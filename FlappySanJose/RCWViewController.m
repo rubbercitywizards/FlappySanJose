@@ -11,9 +11,9 @@
 
 @implementation RCWViewController
 
-- (void)viewDidLoad
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidLoad];
+    [super viewDidAppear:animated];
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;
@@ -35,17 +35,7 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+    return UIInterfaceOrientationMaskLandscape;
 }
 
 @end
